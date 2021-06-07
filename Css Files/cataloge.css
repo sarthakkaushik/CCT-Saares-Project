@@ -1,0 +1,81 @@
+.catalouge-header
+{
+    position: relative;
+    background-color: #11122b;
+    height: 260px;
+    
+    
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+
+
+}
+
+/* {
+    
+    height: 400px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    
+    overflow: hidden;
+   
+    
+}  
+*/
+
+
+.catalouge-header > .catalouge-header-wrapper > .catalouge-header-content > .banner-image img {
+   
+    width: 185px;
+    height: 185px;
+}
+
+/* skewed Header */
+
+
+
+.catalouge-header > .catalouge-header-wrapper {
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.catalouge-header > .catalouge-header-wrapper > .catalouge-header-content
+{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    
+    
+}
+
+.catalouge-header > .catalouge-header-wrapper > .catalouge-header-content > .heading-wrapper
+{
+    background-color:#cea135;
+    color: #11122b;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 175px;
+    height: 80px;
+    padding: 10px;
+    text-align: center;
+
+    
+    
+}
+
+.catalouge-header > .catalouge-header-wrapper > .catalouge-header-content > .link-wrapper
+{
+    width: 370px;
+}

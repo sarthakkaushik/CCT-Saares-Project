@@ -1,0 +1,169 @@
+/* Common Style*/
+body
+{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Common Nav Styles*/
+
+.navigation-wrapper
+{
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* Creating Flex Box Container*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 100px; */
+    padding: 60px 100px;
+}
+
+
+
+/* Left Column Styling */
+
+
+.navigation-wrapper > .left-column
+{
+display: flex;
+align-items: center;
+}
+
+.navigation-wrapper > .left-column >.icon
+{
+    margin-right: 15px;
+}
+
+.navigation-wrapper > .left-column > .icon i 
+{
+
+    font-size: 2em;
+}
+
+.navigation-wrapper > .left-column > .contact-hours-wrapper
+{
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-gap: 10px;
+}
+.navigation-wrapper > .left-column > .contact-hours-wrapper >.hours
+{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 0.8em;
+    color: #858585;
+}
+
+
+
+
+
+
+
+
+/* Center Column Styling */
+
+
+.navigation-wrapper >.center-column > .link-wrapper > .nav-link a 
+{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #cbcbcb;
+    transition: 0.5s;
+    
+}
+
+.navigation-wrapper >.center-column > .link-wrapper > .nav-link a:hover
+{
+    color: #cea135;
+    
+}
+
+.navigation-wrapper > .center-column > .banner-image img {
+   
+    width: 210px;
+    height: 100%;
+}
+
+.navigation-wrapper > .center-column
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    width: 500px;
+}
+
+.navigation-wrapper >.center-column > .banner-image
+{
+    display: flex;
+    justify-content: center;
+}
+
+.link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.link-wrapper > .nav-link
+{
+    width: 70px;
+    text-align: center;
+}
+.link-wrapper > .nav-link a
+{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition:0.5s;
+}
+
+.link-wrapper > .nav-link a:hover
+{
+    letter-spacing: 3px;
+    color: #cea135;
+}
+
+/* Right Column Styling */
+.navigation-wrapper > .right-column > .address-wrapper
+{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+}
+.navigation-wrapper > .right-column
+{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.navigation-wrapper > .right-column > .address-wrapper a
+{
+    color: #cbcbcb;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper a:hover
+{
+    color: goldenrod;
+}
+
+.navigation-wrapper > .right-column > .contact-icon
+{
+    margin-left: 15px;
+    font-size: 1.5em;
+    
+}
+
+.navigation-wrapper > .right-column > .contact-icon a
+{
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+.navigation-wrapper > .right-column > .contact-icon a:hover 
+{
+    color: goldenrod;
+}

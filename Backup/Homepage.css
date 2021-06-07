@@ -1,0 +1,105 @@
+/* Hero Sectition Style */
+.hero-section
+{
+    background-image: url(Pooja_2.JPG);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position:right top ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hero-section > .top-heading h1
+{
+    font-family: 'Roboto Slab', serif;
+
+    color: #cbcbcb
+}
+.hero-section > .bottom-heading h3
+{
+    font-family: 'Roboto Slab', serif;
+
+    color: #cbcbcb
+}
+.hero-section >.top-heading
+{
+    padding: 1px 20px;
+    /* background-color: #584025; */
+    /* #11122b; */
+    width: 290px;
+    border-radius: 2px;
+}
+
+/* Feature Section Style */
+
+.feature-selection 
+{
+    height: 400px;
+    background-image: url(Feature_Background_Image.jpg);
+    background-attachment: fixed;
+    background-position:right top ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cea135;
+    border-top: 10px solid white;
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58);
+}
+
+.feature-selection > .column-wrappers
+{
+    width: 1000px;
+    display:flex;
+    justify-content: space-between;
+    
+    
+}
+
+.feature-selection > .column-wrappers> .column{
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.feature-selection > .column-wrappers> .column:hover
+{
+    border-bottom: 5px solid #11122b;
+}
+.feature-selection > .column-wrappers > .column i
+{
+    font-size: 3em;
+}
+
+.feature-selection > .column-wrappers > .column :nth-child(2)
+{
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+    
+}
+
+.feature-selection > .column-wrappers > .column :nth-child(2):hover
+{
+    letter-spacing: 1px;
+}
+
+.feature-selection > .column-wrappers > .column :nth-child(3)
+ {
+        
+        letter-spacing: 3px;
+        
+ }
+
+ .Gmap
+ {
+     border-top: 10px solid white;
+ }

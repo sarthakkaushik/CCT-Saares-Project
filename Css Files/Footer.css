@@ -1,0 +1,71 @@
+
+.footer-wrapper
+{
+    height: 400px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+}
+
+.footer-wrapper > .footer-img-wrapper
+{
+    width: 180px;
+    height: 45%;
+    opacity: 0.8;
+}
+
+.footer-wrapper > .footer-phone-phone-hours span
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    
+}
+.footer-wrapper >.footer-phone-phone-hours > .hours
+{
+    text-transform: uppercase;
+    color: #cea135;
+}
+
+.footer-wrapper > .link-wrapper
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+}
+.footer-wrapper > .scoial-media-wrapper
+{   
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-wrapper > .scoial-media-wrapper a
+{   
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.footer-wrapper > .scoial-media-wrapper a:hover
+{   
+    
+    color: #cea135;
+    
+}
+
+.footer-wrapper > .copy-write-wrapper
+{
+    margin-bottom: 42px;
+    color: #858585;
+    font-size: 0.7em;
+}
